@@ -163,6 +163,7 @@ body {
 }
 
 .hero-btn {
+    font-family: inherit;
     margin-top: 25px;
     width: 220px;
     height: 50px;
@@ -174,4 +175,115 @@ body {
 .hero-btn:hover {
     cursor: pointer;
     color: #FFFFFF;
+}
+
+.skills {
+    height: 482px;
+    padding-top: 100px;
+    background-color: #000000;
+}
+
+.skills-title-container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    overflow-x: hidden;
+}
+
+.skills-title-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 275px;
+    height: 2px; 
+    background-color: #BDAE82;
+}
+
+.skills-title-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 275px;
+    height: 2px; 
+    background-color: #BDAE82;
+}
+
+
+.section-title {
+
+    margin: 0;
+    color: #BDAE82;
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.skills-items-container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.skills-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.skills-items-logo {
+    width: 62px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+}
+
+.skills-items-title {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.skills-item-text {
+    margin: 0;
+    width: 260px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+
+.skills-items-logo-photo {
+    background-image: url('../assets/img/camera.svg');
+    
+}
+
+.skills-items-logo-video {
+    background-image: url('../assets/img/video.svg');
+    
+}
+
+.skills-items-logo-retouch {
+    background-image: url('../assets/img/image.svg');
+    
+}
+
+.skills-items-logo-audio {
+    background-image: url('../assets/img/mic.svg'); 
+    width: 32px;
 }
