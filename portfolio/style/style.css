@@ -24,17 +24,25 @@ html {
     scroll-behavior: smooth; 
 }
 
+body { 
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
-    
+    padding: 0 20px; 
 }
+
 
 .header-container  {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    width: 1440px;
     padding: 20px 20px;
     background: url('../assets/img/bg.jpg');
     background-repeat: no-repeat;
@@ -54,6 +62,7 @@ html {
 .logo:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
       contrast(87%);
+      cursor: pointer;
 }
 
 .nav {
@@ -80,9 +89,14 @@ html {
     padding-right: 30px;
 }
 
-.language {
-    padding-top: 15px;
+.nav-link:hover {
+    color: #BDAE82;
+    transition: 0.3s;
 }
+
+/* .language {
+    padding-top: 15px;
+} */
 
 .language-link {
 
@@ -111,4 +125,53 @@ html {
     color: #FFFFFF;
     padding: 0 9px;
     font-weight: 700px;
+}
+
+
+.main-container {
+    padding: 0;
+}
+
+.hero {
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center -90px;
+    height: 820px;
+}
+
+.hero-content {
+    padding-top: 160px;
+    padding-bottom: 330px;
+    padding-left: 78px;
+    padding-right: 862px;
+}
+
+.alexa-rise {
+    margin: 0;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.hero-text {
+    width: 450px;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.hero-btn {
+    margin-top: 25px;
+    width: 220px;
+    height: 50px;
+    padding: 8px 73px;
+    background-color: #BDAE82;
+    border-style: none;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+    color: #FFFFFF;
 }
