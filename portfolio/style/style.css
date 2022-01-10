@@ -27,6 +27,7 @@ html {
 body { 
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
+    background-color: #000000;
     font-size: 20px;
     font-style: normal;
 }
@@ -175,12 +176,14 @@ body {
 .hero-btn:hover {
     cursor: pointer;
     color: #FFFFFF;
+    transition: 0.3s;
 }
 
 .skills {
     height: 482px;
     padding-top: 100px;
-    background-color: #000000;
+    /* background-color: #000000; */
+    margin-bottom: 100px;
 }
 
 .skills-title-container {
@@ -255,8 +258,6 @@ body {
     font-size: 20px;
 }
 
-
-
 .skills-item-text {
     margin: 0;
     width: 260px;
@@ -265,8 +266,6 @@ body {
     line-height: 36px;
     text-align: center;
 }
-
-
 
 .skills-items-logo-photo {
     background-image: url('../assets/img/camera.svg');
@@ -286,4 +285,42 @@ body {
 .skills-items-logo-audio {
     background-image: url('../assets/img/mic.svg'); 
     width: 32px;
+}
+
+.container-portfolio::before {
+    width: 260px;
+    right: 40px;
+}
+
+.container-portfolio::after {
+    width: 260px;
+    right: 0;
+}
+
+.portfolio-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.portfolio-btn {
+    width: 220px;
+    height: 55px;
+    border: 3px solid #BDAE82;
+    color: #BDAE82;
+    background: none; 
+}
+
+.portfolio-btn-active {
+    background: #BDAE82;
+    color: #000000;
+}
+
+.portfolio-image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-bottom: 100px;
 }
