@@ -186,7 +186,7 @@ body {
     margin-bottom: 100px;
 }
 
-.skills-title-container {
+.section-title-container {
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -194,7 +194,7 @@ body {
     overflow-x: hidden;
 }
 
-.skills-title-container::before {
+.section-title-container::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -204,7 +204,7 @@ body {
     background-color: #BDAE82;
 }
 
-.skills-title-container::after {
+.section-title-container::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -324,3 +324,27 @@ body {
     gap:25px;
     margin-bottom: 100px;
 }
+
+.video {
+    margin-bottom: 100px;
+}
+
+.video-player {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player-btn {
+    position: absolute;
+    width: 129.86px;
+    height: 130px;
+    background: none;
+    border:none;
+    background-image: url(../assets/img/Play_hover.svg);
+}
+
+.video-player-btn:hover {
+    cursor: pointer;
+} 
