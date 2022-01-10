@@ -411,3 +411,71 @@ body {
     font-weight: 400;
     font-size: 20px;
 }
+
+.contacts {
+    height: 700px;
+    padding-top: 50px;
+    background-image: url(../assets/img/contacts.jpg);
+    background-size: auto 700px;
+    background-position: center center;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.title-contacts {
+    text-align: left;
+    margin-right: 232px;
+    padding-bottom: 40px;
+
+}
+
+.contacts-input {
+    position: relative;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 25px;
+    background: none;
+    border: 2px solid #BDAE82;
+    color: #BDAE82;
+    outline: none;
+    padding-left: 20px;
+
+}
+
+::placeholder {
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    color: #bdae82;
+    font-size: 20px;
+  }
+
+.contacts-textarea {
+    width: 450px;
+    height: 100px;
+    margin-bottom: 28px;
+    background: none;
+    border: 2px solid #BDAE82;
+    color: #BDAE82;
+    resize: none;
+    padding-top:13px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.contacts-btn {
+    width: 220px;
+    height: 55px;
+    background: #BDAE82;
+    border:none;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 230px;
+}
