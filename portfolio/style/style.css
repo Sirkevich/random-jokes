@@ -57,10 +57,9 @@ body {
     background-size: contain;
     background-repeat: no-repeat;  
     transition: 0.3s;
-
 }
 
-.logo:hover {
+.main-icon:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
       contrast(87%);
       cursor: pointer;
@@ -157,23 +156,23 @@ body {
 
 .hero-text {
     width: 450px;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     font-size: 20px;
     line-height: 40px;
     font-weight: 300;
 }
 
-.hero-btn {
+.main-btn {
     font-family: inherit;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 220px;
     height: 50px;
-    padding: 8px 73px;
+    /* padding: 8px 73px; */
     background-color: #BDAE82;
     border-style: none;
 }
 
-.hero-btn:hover {
+.main-btn:hover {
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.3s;
@@ -478,4 +477,19 @@ body {
     font-weight: normal;
     font-size: 20px;
     margin-right: 230px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-about-developer-content {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social-content-img {
+    color: #BDAE82;
 }
