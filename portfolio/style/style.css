@@ -38,10 +38,10 @@ body {
     padding: 0 20px; 
 }
 
-
 .header-container  {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 90px;
     width: 1440px;
     padding: 20px 20px;
@@ -53,7 +53,7 @@ body {
 .logo {
     width: 50px;
     height: 50px;
-    background-image: url('../assets/img/logo.svg');
+    background-image: url('../assets/svg/logo.svg');
     background-size: contain;
     background-repeat: no-repeat;  
     transition: 0.3s;
@@ -74,6 +74,8 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 30px;
+    padding: 0;
 }
 
 .nav-item {
@@ -83,10 +85,6 @@ body {
 .nav-link {
     color: #FFFFFF;
     text-decoration: none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    padding-right: 30px;
 }
 
 .nav-link:hover {
@@ -94,17 +92,13 @@ body {
     transition: 0.3s;
 }
 
-/* .language {
-    padding-top: 15px;
-} */
-
 .language-link {
 
     color: #FFFFFF;
     text-decoration: none;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 20px;
     text-decoration: none;
 }
@@ -119,14 +113,12 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     font-family: Inter, sans-serif;
-    /* font-style: normal; */
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 20px;
     color: #FFFFFF;
     padding: 0 9px;
-    font-weight: 700px;
+    font-weight: 700;
 }
-
 
 .main-container {
     padding: 0;
@@ -137,17 +129,13 @@ body {
     background-repeat: no-repeat;
     background-position: center -90px;
     height: 820px;
-}
-
-.hero-content {
     padding-top: 160px;
-    padding-bottom: 330px;
     padding-left: 78px;
-    padding-right: 862px;
 }
 
 .alexa-rise {
     margin: 0;
+    margin-bottom: 25px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -156,18 +144,15 @@ body {
 
 .hero-text {
     width: 450px;
+    margin: 0; 
     margin-bottom: 25px;
-    font-size: 20px;
     line-height: 40px;
     font-weight: 300;
 }
 
 .main-btn {
-    font-family: inherit;
-    /* margin-top: 25px; */
     width: 220px;
     height: 50px;
-    /* padding: 8px 73px; */
     background-color: #BDAE82;
     border-style: none;
 }
@@ -181,7 +166,6 @@ body {
 .skills {
     height: 482px;
     padding-top: 100px;
-    /* background-color: #000000; */
     margin-bottom: 100px;
 }
 
@@ -212,7 +196,6 @@ body {
     height: 2px; 
     background-color: #BDAE82;
 }
-
 
 .section-title {
 
@@ -267,22 +250,22 @@ body {
 }
 
 .skills-items-logo-photo {
-    background-image: url('../assets/img/camera.svg');
+    background-image: url('../assets/svg/camera.svg');
     
 }
 
 .skills-items-logo-video {
-    background-image: url('../assets/img/video.svg');
+    background-image: url('../assets/svg/video.svg');
     
 }
 
 .skills-items-logo-retouch {
-    background-image: url('../assets/img/image.svg');
+    background-image: url('../assets/svg/image.svg');
     
 }
 
 .skills-items-logo-audio {
-    background-image: url('../assets/img/mic.svg'); 
+    background-image: url('../assets/svg/microphone.svg'); 
     width: 32px;
 }
 
@@ -341,7 +324,7 @@ body {
     height: 130px;
     background: none;
     border:none;
-    background-image: url(../assets/img/Play_hover.svg);
+    background-image: url(../assets/svg/play_btn.svg);
 }
 
 .video-player-btn:hover {
@@ -360,9 +343,8 @@ body {
 }
 
 .price-item-title {
-    font-family: 'Merriweather';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 28px;
 }
 
@@ -385,7 +367,6 @@ body {
     border: 3px solid #BDAE82;
 }
 
-
 .price-item-text-container {
     padding-bottom: 45px;
 }
@@ -393,22 +374,12 @@ body {
 .price-item-text {
     display: block;
     text-align: center;
-    font-family: 'Merriweather', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 36px;
 }
 
 .price-item-btn {
-    width: 220px;
     height: 55px;
-    background: #BDAE82;
-    border:none;
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
 }
 
 .contacts {
@@ -468,14 +439,7 @@ body {
 }
 
 .contacts-btn {
-    width: 220px;
     height: 55px;
-    background: #BDAE82;
-    border:none;
-    font-family: Inter,sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
     margin-right: 230px;
 }
 
