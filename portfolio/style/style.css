@@ -34,7 +34,7 @@ html {
 body { 
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
-    background-color: var(--color-black);
+    /* background-color: var(--color-black); */
     font-size: 20px;
     font-style: normal;
 }
@@ -43,6 +43,7 @@ body {
     width: 1440px;
     margin: 0 auto;
     padding: 0 20px; 
+    background-color: var(--color-black);
 }
 
 .header-container  {
@@ -81,7 +82,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 30px;
+    gap: 33px;
     padding: 0;
 }
 
@@ -134,13 +135,18 @@ body {
     background-repeat: no-repeat;
     background-position: center -90px;
     height: 820px;
-    padding-top: 160px;
-    padding-left: 78px;
+    padding-top: 185px;
+    padding-left: 80px;
+}
+
+.hero-content {
+    width: 500px;
+    height: 330px;
 }
 
 .alexa-rise {
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 36px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -148,7 +154,7 @@ body {
 }
 
 .hero-text {
-    width: 450px;
+    width: 470px;
     margin: 0; 
     margin-bottom: 25px;
     line-height: 40px;
@@ -186,7 +192,7 @@ body {
     content: "";
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 9px;
     width: 275px;
     height: 2px; 
     background-color: var(--color-gold);
@@ -196,7 +202,7 @@ body {
     content: "";
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 9px;
     width: 275px;
     height: 2px; 
     background-color: var(--color-gold);
@@ -226,12 +232,12 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 0 41px;
 }
 
 .skills-items-logo {
     width: 62px;
-    height: 50px;
+    height: 59px;
     margin-bottom: 50px;
     background-size: contain;
     background-repeat: no-repeat;  
@@ -240,14 +246,14 @@ body {
 
 .skills-items-title {
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 29px;
     font-weight: 700;
     font-size: 20px;
 }
 
 .skills-item-text {
     margin: 0;
-    width: 260px;
+    width: 280px;
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
