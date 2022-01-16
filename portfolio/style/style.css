@@ -281,13 +281,13 @@ body {
 }
 
 .container-portfolio::before {
-    width: 260px;
+    width: 240px;
     right: 40px;
 }
 
 .container-portfolio::after {
-    width: 260px;
-    right: 0;
+    width: 240px;
+    right: 9;
 }
 
 .portfolio-buttons-container {
@@ -342,8 +342,16 @@ body {
     cursor: pointer;
 } 
 
+.container-price::before {
+    width: 280px;
+}
+
 .price {
     padding-bottom: 100px;
+}
+
+.container-price::after {
+    width: 280px;
 }
 
 .price-item-container {
@@ -358,6 +366,7 @@ body {
     font-family: Merriweather;
     font-weight: bold;
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .price-item-total-price {
@@ -375,12 +384,13 @@ body {
     flex-direction: column;
     width: 450px;
     height: 505px;
-    padding: 20px 0;
+    padding: 29px 0;
     border: 3px solid var(--color-gold);
 }
 
 .price-item-text-container {
-    padding-bottom: 45px;
+    padding-bottom: 40px;
+    padding-top: 6px;
 }
 
 .price-item-text {
@@ -396,7 +406,7 @@ body {
 
 .contacts {
     height: 700px;
-    padding-top: 50px;
+    padding-top: 60px;
     background-image: url(../assets/img/contacts.jpg);
     background-size: auto 700px;
     background-position: center center;
@@ -407,12 +417,13 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-right: 24px;
     
 }
 
 .title-contacts {
     text-align: left;
-    margin-right: 232px;
+    margin-right: 223px;
     padding-bottom: 40px;
 }
 
@@ -420,7 +431,7 @@ body {
     position: relative;
     width: 450px;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background: none;
     border: 2px solid var(--color-gold);
     color: var(--color-gold);
@@ -439,7 +450,7 @@ body {
 .contacts-textarea {
     width: 450px;
     height: 100px;
-    margin-bottom: 28px;
+    margin-bottom: 32px;
     background: none;
     border: 2px solid var(--color-gold);
     color: var(--color-gold);
@@ -457,6 +468,8 @@ body {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 150px;
     padding: 50px 0;
 }
 
@@ -468,4 +481,8 @@ body {
 
 .footer-social-content-img {
     color: var(--color-gold);
+}
+
+.footer-about-company-text {
+    padding-left: 14px;
 }
