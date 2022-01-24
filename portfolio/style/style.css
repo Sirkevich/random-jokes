@@ -548,6 +548,13 @@ body {
     margin-bottom: 100px;
 }
 
+@media (max-width: 768px) {
+    .portfolio-image-container{
+        margin-bottom: 80px;
+    }
+}
+
+
 .video {
     margin-bottom: 100px;
 }
@@ -567,13 +574,14 @@ body {
 @media (max-width:768px) {
     .video-player {
         height: 418px;
+        background: url(../assets/img/video-player-tablet.jpg);
+        background-repeat: no-repeat;
         background-size: cover;
     }    
 
 }
 
 .video-player-btn {
-    position: absolute;
     width: 129.86px;
     height: 130px;
     background: none;
@@ -583,8 +591,8 @@ body {
 
 @media (max-width:768px) {
     .video-player-btn {
-        width: 64.62px;
-        height: 64.69px;
+        width: 65px;
+        height: 65px;
         background-image: url(../assets/svg/play-btn-tablet.svg);
         background-repeat: no-repeat;
     }    
