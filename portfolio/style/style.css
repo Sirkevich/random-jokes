@@ -817,11 +817,15 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 16px;
-        padding-top: 28px;
+        padding-top: 34px;
         padding-bottom: 40px;
     }
     
+    .social-icon {
+        margin-top: 14px;
+    }
 }
+
 
 .footer-about-developer-content {
     display: flex;
@@ -829,12 +833,27 @@ body {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .footer-about-developer-text {
+        margin-right: 2px;
+    }
+}
+
+
+
+/* @media (max-width: 768px) {
+    .footer-about-developer-content {
+     gap: 22px;
+    }
+} */
+
 .footer-social-content-img {
     color: var(--color-gold);
 }
 
 .footer-about-company-text {
     padding-left: 14px;
+    
 }
 
 @media (max-width: 768px) {
