@@ -338,6 +338,7 @@ body {
 @media (max-width: 768px) {
     .skills {
         height: 729px;
+        margin-bottom: 80px;
     }
 }
 
@@ -351,7 +352,7 @@ body {
 
 @media (max-width: 768px) {
     .section-title-container {
-        margin-bottom: 45px;
+        margin-bottom: 50px;
     }
 }
 
