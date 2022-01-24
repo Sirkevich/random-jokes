@@ -714,6 +714,7 @@ body {
     .contacts {
         height: 600px;
         background-size: cover;
+        padding-top: 52px;
     }
     
 }
@@ -731,6 +732,7 @@ body {
     .contacts-container {
         justify-content: center;
         align-items: center;
+        padding-right: 0;
       
     }
     
@@ -745,6 +747,7 @@ body {
 @media (max-width: 768px) {
     .title-contacts {
         margin: 0;
+        padding-bottom: 32px;
     }
     
 }
