@@ -19,7 +19,7 @@
 
 // const url = url('./');
 
-const changeText = document.querySelector('.button');
+const changeText = document.querySelector('.btn');
 const text = document.querySelector('.text');
 const author = document.querySelector('.author');
 const audio = document.querySelector('audio');
@@ -40,8 +40,8 @@ function showData(data) {
     
   const random = parseInt(Math.random() * 100);
   
-  text.textContent = data[random].text;
-  author.textContent = data[random].author;
+  text.textContent = '« ' +  data[random].text + ' »' ;
+  author.textContent =	'© '+ data[random].author;
 
 }
 

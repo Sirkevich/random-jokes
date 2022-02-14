@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>random-jokes</title>
     <link rel="icon" type="image/x-icon" href="./assets/svg/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -15,17 +16,22 @@
     </header>
     <main class="main">
        <div class="container">
-           <h1 data-i18="header">Когда тяжело, прочти и задумайся... </h1>
-           <button class="button" data-i18="button">
-            слова великих людей
-           </button>
-           <audio src="./assets/sounds/sound.mp3"></audio>
-           <p class="text"></p>
-           <p class="author"></p>
-           <span class="lang-ru">ru</span><span>/</span><span class="lang-en">en</span>
+           <div class="main-content">
+                <h1 data-i18="header">Когда тяжело, прочти и задумайся... </h1>
+                <button type="button" class="btn btn-light" data-i18="button">слова великих людей</button>
+                <!-- <button class="button" data-i18="button">
+                    слова великих людей
+                </button> -->
+                <audio src="./assets/sounds/sound.mp3"></audio>
+                <p class="text"></p>
+                <p class="author"></p>
+                <div class="translate">
+                    <span class="lang-ru">ru</span><span>/</span><span class="lang-en">en</span>
+                </div> 
+           </div>
        </div>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer-container">
                 <div class="footer-about-developer">
@@ -56,7 +62,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="./index.js"></script>
 </body>
 </html>
